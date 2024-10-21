@@ -45,6 +45,20 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 9.	Click on emulate to start emulation 
 
 
+# EXPERIMENT--01-ALP-FOR-8086
+
+
+
+
+
+
+
+
+
+
+9.	Click on emulate to start emulation 
+
+
 
 
 
@@ -68,6 +82,58 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
+
+
+
+
+
+
+
+## Programs for arithmetic  operations
+
+## Addition  of 8 bit ALP 
+MOV AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+
+
+
+## Output  
+![Screenshot 2024-10-14 142625](https://github.com/user-attachments/assets/578fb396-83b9-475c-9d65-f52b5f63a55e)
+
+ 
+## Subtraction   of 8 bit numbers  ALP 
+ MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+
+## Output 
+![Screenshot 2024-10-14 142900](https://github.com/user-attachments/assets/2e0d9eb8-cae1-472f-86a4-9b0fefef68cd)
+
+## Multiplication alp 
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+
+ ## Output  
+ ![Screenshot 2024-10-14 143051](https://github.com/user-attachments/assets/8165fe3d-ff6e-44c8-a503-dd639bffb171)
+
+
+
+## Division alp 
+MOV AL,68H
+MOV BL,18H
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
+
 
 
 
