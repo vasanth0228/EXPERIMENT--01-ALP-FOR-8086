@@ -1,7 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
+
 Name : Vasanth Kumar V
+
 Roll no : 2305002027
-Date of experiment : 21.10.2021
+
+Date of experiment : 21.10.2024
 
 
 
@@ -59,6 +62,20 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below
+
+## program for arithmetric operation:
+
+## Addition of 8 bit ALP
+```
+mov al, 15h
+mov bl, 22h
+add al, bl
+mov [5454h], al
+HLT
+```
+## output
+![362342974-ebc6d969-f133-4830-b0db-0358bae7a528](https://github.com/user-attachments/assets/d795444c-94c2-4de0-8085-6efd3d67a0c6)
+
 ```
 MOV BL,18H
 DIV BL
