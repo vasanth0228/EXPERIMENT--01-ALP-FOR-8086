@@ -58,47 +58,54 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
+10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below
+```
 MOV BL,18H
 DIV BL
 HLT
-
+```
 
 ## Output  
 ![Screenshot 2024-10-14 143247](https://github.com/user-attachments/assets/b107da71-4fcb-48af-8cb0-aebdde04eae8)
 
 
 ## AND of 8 bit ALP
+```
 MOV AL,33H
 MOV BL,44H
 AND AL,BL
 HLT
+```
 
 ## Output
 ![Screenshot 2024-10-14 143501](https://github.com/user-attachments/assets/c24bc536-cd65-4310-9c79-1b266589c4ff)
 
 ## OR of 8 bit ALP
+```
 MOV AL,45H
 MOV BL,66H
 OR AL,BL
 HLT
-
+```
 ## Output
 ![Screenshot 2024-10-14 143656](https://github.com/user-attachments/assets/fa440da3-976e-46c5-ae24-55d92c59d19d)
 
 ## NOT of 8 bit ALP
+```
 MOV AL,65H
 NOT AL
 HLT
-
+```
 ## Output
 ![Screenshot 2024-10-14 164534](https://github.com/user-attachments/assets/3e62ab9d-6594-442c-b87f-d9dfa4d57cda)
 
 ## XOR of 8 bit ALP
+```
 MOV AL,66H
 MOV BL,77H
 XOR AL,BL
 HLT
+```
 ## Output
 ![Screenshot 2024-10-14 144007](https://github.com/user-attachments/assets/a78ea66f-5f12-4eeb-bfe5-5e79ed788018)
 
