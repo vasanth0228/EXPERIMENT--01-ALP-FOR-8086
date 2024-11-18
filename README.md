@@ -67,19 +67,56 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition of 8 bit ALP
 ```
+org 100h
+
 mov al, 15h
 mov bl, 22h
 add al, bl
 mov [5454h], al
-HLT
+
+ret
 ```
 ## output
 ![362342974-ebc6d969-f133-4830-b0db-0358bae7a528](https://github.com/user-attachments/assets/d795444c-94c2-4de0-8085-6efd3d67a0c6)
 
+## Subtraction of 8 bit numbers ALP
 ```
-MOV BL,18H
-DIV BL
-HLT
+org 100h
+
+mov al, 55h
+mov bl, 21h
+sub al, bl
+mov [3254h], al
+
+ret
+```
+## output
+![362343292-9261f88a-91b4-4d5c-b3ca-083265a08eee](https://github.com/user-attachments/assets/b5ecc660-4794-48cd-a80b-a9c7ebdbf88a)
+
+## Multiplication alp
+```
+org 100h
+
+mov al, 17h
+mov bl, 4h
+mul bl
+mov [1234h], al
+
+ret
+```
+## output
+![362343442-7740141c-4139-4da9-8400-6e2225da7256](https://github.com/user-attachments/assets/9ab5d269-40a5-4947-a819-93e1dd78bbb8)
+
+
+## Division alp
+```
+
+mov al, 72h
+mov bl, 4h
+div bl
+mov [5151h], al
+
+ret
 ```
 
 ## Output  
@@ -88,10 +125,14 @@ HLT
 
 ## AND of 8 bit ALP
 ```
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
-HLT
+org 100h
+
+mov al, 07h
+mov bl, 05h
+and al, bl
+mov [5000h], al
+
+ret
 ```
 
 ## Output
@@ -99,29 +140,41 @@ HLT
 
 ## OR of 8 bit ALP
 ```
-MOV AL,45H
-MOV BL,66H
-OR AL,BL
-HLT
+org 100h
+
+mov al, 15h
+mov bl, 22h
+or al, bl
+mov [5454h], al
+
+ret
 ```
 ## Output
 ![Screenshot 2024-10-14 143656](https://github.com/user-attachments/assets/fa440da3-976e-46c5-ae24-55d92c59d19d)
 
 ## NOT of 8 bit ALP
 ```
-MOV AL,65H
-NOT AL
-HLT
+org 100h
+
+mov ax, 0F5Bh
+not ax
+mov [6666h], ax
+
+ret
 ```
 ## Output
 ![Screenshot 2024-10-14 164534](https://github.com/user-attachments/assets/3e62ab9d-6594-442c-b87f-d9dfa4d57cda)
 
 ## XOR of 8 bit ALP
 ```
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
-HLT
+org 100h
+
+mov ax, 0A32h
+mov bx, 05B7h
+xor ax, bx
+mov [5050h], ax
+
+ret
 ```
 ## Output
 ![Screenshot 2024-10-14 144007](https://github.com/user-attachments/assets/a78ea66f-5f12-4eeb-bfe5-5e79ed788018)
